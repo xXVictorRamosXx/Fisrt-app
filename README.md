@@ -45,8 +45,18 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # Preguntas
 
 ## Define que es un componente y al crearlo que elementos lo forman.
-### Un compunente es un archivo que esta compuesto por un template (.component, .html, .app)
+Un compunente es un archivo que esta compuesto por un template (.component, .html, .app)
 
 ## Define que es un módulo y que función tiene el patrón de diseño decorator.
-### 
+Es un conjunto de codigo espesifico a un ambito dedicado de la aplicacion. Permite añadir dinámicamente nuevos comportamientos a objetos colocándolos dentro de objetos especiales que los envuelven
 
+## Menciona y describe los elementos importantes de un @NgModule
+declarations: Los componentes, directivas, y pipes que pertenecen a este NgModule.
+
+exports: El subconjunto de declaraciones que deberían ser visibles y utilizables en las plantillas de componentes de otros NgModules.
+
+imports: Otros módulos cuyas clases exportadas son necesarias para las plantillas de componentes declaradas en este NgModule.
+
+providers: Creadores de servicios que este NgModule aporta a la colección global de servicios; se vuelven accesibles en todas las partes de la aplicación. (También puedes especificar proveedores a nivel de componente, que a menudo es preferido).
+
+bootstrap: La vista principal de la aplicación, llamado el componente raíz, que aloja todas las demás vistas de la aplicación. Sólo el NgModule raíz debe establecer la propiedad bootstrap.
