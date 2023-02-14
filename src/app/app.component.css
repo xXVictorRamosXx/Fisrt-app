@@ -1,0 +1,11 @@
+.content {
+    color: white;
+    min-height: calc(100vh - 60px);
+    text-align: center;
+    background-image: url('https://media.admagazine.com/photos/618a64adac089e092dcbffde/master/w_1600%2Cc_limit/77465.jpg');
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
