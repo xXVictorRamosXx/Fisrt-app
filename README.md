@@ -42,11 +42,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 �
 �
 
-#Preguntas
+# Preguntas
 
-##Define que es un componente y al crearlo que elementos lo forman.
-###Un compunente es un archivo que esta compuesto por un template (.component, .html, .app)
+## Define que es un componente y al crearlo que elementos lo forman.
+### Un compunente es un archivo que esta compuesto por un template (.component, .html, .app)
 
-##Define que es un módulo y que función tiene el patrón de diseño decorator.
-###
+## Define que es un módulo y que función tiene el patrón de diseño decorator.
+### 
 
